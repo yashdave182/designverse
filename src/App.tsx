@@ -24,10 +24,10 @@ function App() {
       <div className="absolute inset-0 z-0 bg-black/20" />
 
       {/* Main Content - Split Layout */}
-      <div className="relative z-10 flex min-h-screen w-full">
+      <div className="relative z-10 flex flex-col lg:flex-row min-h-screen w-full">
 
         {/* Left Side - Astronaut */}
-        <div className="hidden lg:flex w-1/2 items-center justify-center p-12">
+        <div className="flex w-full lg:w-1/2 h-[35vh] lg:h-auto items-center justify-center p-6 lg:p-12">
           <motion.div
             animate={{ y: [0, -20, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
