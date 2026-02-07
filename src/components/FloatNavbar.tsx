@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Home, Info, Rocket as RocketIcon, Github } from 'lucide-react';
+import { Home, Info, Rocket as RocketIcon } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { useMemo } from 'react';
 

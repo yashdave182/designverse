@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { Eye, EyeOff, Facebook, Linkedin, Twitter } from 'lucide-react';
-import { motion } from 'framer-motion';
+
 
 // --- Types & Schema ---
 const loginSchema = z.object({
